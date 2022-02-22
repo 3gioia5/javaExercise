@@ -4,42 +4,42 @@ public class Person {
     private int cashAmount;
     private BankAccount account;
 
-    public Person(String pName, int pAge) {
-        name = pName;
-        if (pAge < 0) {
-            age = 12;
+    public Person(String name, int age) {
+        this.name = name;
+        if (age < 0) {
+            this.age = 12;
         } else {
-            age = pAge;
+            this.age = age;
         }
         cashAmount = 0;
     }
 
-    public Person(String pName, int pAge, int pCashAccount) {
-        name = pName;
-        if (pAge < 0) {
-            age = 12;
+    public Person(String name, int age, int cashAccount) {
+        this.name = name;
+        if (age < 0) {
+            this.age = 12;
         } else {
-            age = pAge;
+            this.age = age;
         }
-        if (pCashAccount < 0) {
-            cashAmount = 0;
+        if (cashAccount < 0) {
+            this.cashAmount = 0;
         } else {
-            cashAmount = pCashAccount;
+            this.cashAmount = cashAccount;
         }
     }
 
 
-    public void setName(String newName) {
-        name = newName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setAge(int newAge) {
-        if (newAge >= 0) {
-            age = newAge;
+    public void setAge(int age) {
+        if (age >= 0) {
+            this.age = age;
         }
     }
 
@@ -47,17 +47,17 @@ public class Person {
         return age;
     }
 
-    public void setCashAmount(int newCashAmount) {
-        if (newCashAmount >= 0) {
-            cashAmount = newCashAmount;
+    public void setCashAmount(int cashAmount) {
+        if (cashAmount >= 0) {
+            this.cashAmount = cashAmount;
         }
     }
     public int getCashAmount() {
         return cashAmount;
     }
 
-    public void setAccount(BankAccount newAccount) {
-        account = newAccount;
+    public void setAccount(BankAccount account) {
+        this.account = account;
     }
 
     public BankAccount getAccount() {

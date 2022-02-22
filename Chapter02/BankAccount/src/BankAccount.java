@@ -2,32 +2,32 @@ public class BankAccount {
     private int balance;
     private Person owner;
 
-    public BankAccount(int pBalance) {
-        if (pBalance < 0) {
-            balance = 0;
+    public BankAccount(int balance) {
+        if (balance < 0) {
+            this.balance = 0;
         } else {
-            balance = pBalance;
+            this.balance = balance;
         }
     }
 
-    public BankAccount(Person pOwner) {
-        owner = pOwner;
+    public BankAccount(Person owner) {
+        this.owner = owner;
         balance = 0;
     }
 
-    public BankAccount(int pBalance, Person pOwner) {
-        if (pBalance < 0) {
-            balance = 0;
+    public BankAccount(int balance, Person owner) {
+        if (balance < 0) {
+            this.balance = 0;
         } else {
-            balance = pBalance;
+            this.balance = balance;
         }
-        owner = pOwner;
+        this.owner = owner;
     }
 
 
-    public void setBalance(int newBalance) {
-        if (newBalance >= 0) {
-            balance = newBalance;
+    public void setBalance(int balance) {
+        if (balance >= 0) {
+            this.balance = balance;
         }
     }
 
@@ -35,8 +35,8 @@ public class BankAccount {
         return balance;
     }
 
-    public void setOwner(Person newOwner) {
-        owner = newOwner;
+    public void setOwner(Person owner) {
+        this.owner = owner;
     }
 
     public Person getOwner() {
