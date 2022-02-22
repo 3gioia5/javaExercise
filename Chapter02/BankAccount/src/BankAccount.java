@@ -2,6 +2,28 @@ public class BankAccount {
     private int balance;
     private Person owner;
 
+    public BankAccount(int pBalance) {
+        if (pBalance < 0) {
+            balance = 0;
+        } else {
+            balance = pBalance;
+        }
+    }
+
+    public BankAccount(Person pOwner) {
+        owner = pOwner;
+        balance = 0;
+    }
+
+    public BankAccount(int pBalance, Person pOwner) {
+        if (pBalance < 0) {
+            balance = 0;
+        } else {
+            balance = pBalance;
+        }
+        owner = pOwner;
+    }
+
 
     public void setBalance(int newBalance) {
         if (newBalance >= 0) {
@@ -32,10 +54,6 @@ public class BankAccount {
             System.out.println(amount + "원 입금하였습니다. 잔고: " + balance + "원, 현금: " + owner.getCashAmount() + "원");
             return true;
         }
-    }
-
-    public boolean deposit(double amount, double exchangeRate) {
-        return deposit((int)(amount * exchangeRate));
     }
 
     public boolean withdraw(int amount) {

@@ -4,6 +4,31 @@ public class Person {
     private int cashAmount;
     private BankAccount account;
 
+    public Person(String pName, int pAge) {
+        name = pName;
+        if (pAge < 0) {
+            age = 12;
+        } else {
+            age = pAge;
+        }
+        cashAmount = 0;
+    }
+
+    public Person(String pName, int pAge, int pCashAccount) {
+        name = pName;
+        if (pAge < 0) {
+            age = 12;
+        } else {
+            age = pAge;
+        }
+        if (pCashAccount < 0) {
+            cashAmount = 0;
+        } else {
+            cashAmount = pCashAccount;
+        }
+    }
+
+
     public void setName(String newName) {
         name = newName;
     }
