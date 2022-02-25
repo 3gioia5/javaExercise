@@ -1,6 +1,6 @@
 public class MarketGood {
-    private String name;   // 제품명
-    private int retailPrice;   // 정가
+    public final String name;   // 제품명
+    public final int retailPrice;   // 정가
     private int discountRate;
 
 
@@ -18,14 +18,6 @@ public class MarketGood {
         this.name = name;
         this.retailPrice = retailPrice;
         this.discountRate = 0;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getRetailPrice() {
-        return retailPrice;
     }
 
     public void setDiscountRate(int rate) {
