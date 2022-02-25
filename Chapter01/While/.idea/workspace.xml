@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="178c2d74-724e-4662-8e48-7f88d06fceaf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Array/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Array/Array.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/.idea/Array.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Array/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/Array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/out/production/Array/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/out/production/Array/.idea/Array.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/out/production/Array/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Array/out/production/Array/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../For/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../For/.idea/For.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../For/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../For/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../For/For.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../For/out/production/For/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../For/out/production/For/.idea/For.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../For/out/production/For/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../For/out/production/For/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfElse/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfElse/.idea/IfElse.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfElse/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfElse/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfElse/IfElse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfElse/out/production/IfElse/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfElse/out/production/IfElse/.idea/IfElse.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfElse/out/production/IfElse/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfElse/out/production/IfElse/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfElse/out/production/IfElse/IfElse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/While.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/While.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/While/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/While/.idea/While.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/While/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/While/.idea/modules.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25bdctXsfDR8UkcvUE433iSvHcd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Switch" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="While" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="While" />
+      <module name="While" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.While" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="178c2d74-724e-4662-8e48-7f88d06fceaf" name="Changes" comment="" />
+      <created>1645799806578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645799806578</updated>
+    </task>
+    <servers />
+  </component>
+</project>
