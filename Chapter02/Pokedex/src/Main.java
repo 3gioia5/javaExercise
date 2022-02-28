@@ -1,34 +1,21 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-
 public class Main {
     public static void main(String[] args) {
-//        ArrayList<Pokemon> arrayList = new ArrayList<>();
-//        arrayList.add(new Pokemon("이상해씨"));
-//        arrayList.add(new Pokemon("이상해풀"));
-//        arrayList.add(new Pokemon("이상해꽃"));
-//        System.out.println(arrayList.get(0));
-//        System.out.println(arrayList.get(1));
-//        System.out.println(arrayList.get(2));
+        PokeBag pokeBag = new PokeBag();
 
-        // HashMap
-        // Key -> Value
+        pokeBag.add(new Pokemon("마그마", 1024));
+        pokeBag.add(new Pokemon("마그마그", 215));
+        pokeBag.add(new Pokemon("마릴", 816));
+        pokeBag.add(new Pokemon("마그마그", 136));
+        pokeBag.add(new Pokemon("라프라스", 1822));
+        pokeBag.add(new Pokemon("마릴", 215));
+        pokeBag.add(new Pokemon("마릴", 185));
+        pokeBag.add(new Pokemon("마릴", 110));
+        pokeBag.add(new Pokemon("니드킹", 1709));
+        pokeBag.add(new Pokemon("마릴", 39));
+        pokeBag.add(new Pokemon("마자용", 12));
 
-        HashMap<String, Pokemon> pokedex = new HashMap<>();
-        pokedex.put("피카츄", new Pokemon("피카츄"));
-        pokedex.put("피카츄", new Pokemon("피츄"));
-        pokedex.put("라이츄", new Pokemon("라이츄"));
-        pokedex.put("이상해씨", new Pokemon("이상해씨"));
-        pokedex.put("이상해풀", new Pokemon("이상해풀"));
-        pokedex.put("이상해꽃", new Pokemon("이상해꽃"));
-
-//        pokedex.remove("이상해풀");
-//        Pokemon poke003 = pokedex.get("이상해꽃");
-
-        System.out.println(pokedex.get("피카츄"));
-
-        for (String key : pokedex.keySet()) {
-            System.out.println(key);
-        }
-   }
+        System.out.println(pokeBag.getStrongest("마릴"));
+        System.out.println(pokeBag.getStrongest());
+        System.out.println(pokeBag.getStrongest("피카츄"));
+    }
 }
